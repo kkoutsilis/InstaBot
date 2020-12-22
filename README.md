@@ -18,3 +18,6 @@ You need to install
 * Install [Selenium](https://www.selenium.dev/) using the pip command of python from the command line - pip install selenium  
 ## Enjoy
 After that run the program and you are ready to go , the bot will spam for ever (at least untill you close it) every 4 to 5 minutes so that you do not get a ban from instagram  
+
+Feel free to fork the repo, see the code, improve the bot, try new things.  
+It's far from perfect, but it's a fun project that i did to learn new stuff and there are a lot of opportunities to build upon it! 😊
