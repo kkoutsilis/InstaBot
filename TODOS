@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 Add a counter to see how many comments the bot made 
 Learn about xpath so that the script is more independent from the browser version
 Add support for other browsers maybe
+=======
+add a counter to see how many comments the bot made 
+>>>>>>> b65252e569fe42b3a48588315118e31f3f5e5fdf
