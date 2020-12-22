@@ -49,23 +49,6 @@ class InstaBot:
         except:
             self.driver.quit()
 
-    def to_profile(self):
-        searchBar = WebDriverWait(self.driver, 10).until(
-            EC.presence_of_element_located((By.XPATH,"/html/body/div[1]/section/nav/div[2]/div/div/div[2]/div"))
-            )
-        searchBar.click()
-        time.sleep(2)
-
-        search = self.driver.find_element_by_xpath("/html/body/div[1]/section/nav/div[2]/div/div/div[2]/input")
-        search.send_keys("@konstantinos_koutsilis")
-        search.send_keys(Keys.RETURN)
-        time.sleep(2)
-
-        profile = WebDriverWait(self.driver, 10).until(
-            EC.presence_of_element_located((By.XPATH,"/html/body/div[1]/section/nav/div[2]/div/div/div[2]/div[4]/div/a"))
-        )
-        profile.click()
-        time.sleep(4)     
 
     def login(self,username,password):
         self.driver.find_element_by_xpath("//input[@name=\"username\"]").send_keys(username)
@@ -74,10 +57,8 @@ class InstaBot:
         
 
 
-
-
 username = input("Give your instagram username here: " )
 password = getpass("Give your instagram password here: ")
 post_url = input("Paste the url of the giveaway post here: ")
-comments = input("Give the comment that the bot will spam here" )
+comments = input("Give the comment that the bot will spam here: " )
 InstaBot(username,password,post_url,comments)
