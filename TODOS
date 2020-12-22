@@ -1,2 +1,3 @@
-add a counter to see how many comments the bot made 
-add a random time to sleep so the bot is more human like 
+Add a counter to see how many comments the bot made 
+Learn about xpath so that the script is more independent from the browser version
+Add support for other browsers maybe
