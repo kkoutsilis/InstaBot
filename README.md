@@ -9,7 +9,7 @@ and automates the task of commenting for you!
 ## Browser
 This bot omnly works with Google Chrome for now (Version 87.0.4280.88)  
 
-### Prerequisites
+## Prerequisites
 
 You need to install
 * [Python 3.9](https://www.python.org/downloads/release/python-390/)
