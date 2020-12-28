@@ -7,7 +7,7 @@ and the comment (most probably your frineds username :P)
 and automates the task of commenting for you!  
 
 ## Browser
-This bot omnly works with Google Chrome for now (Version 87.0.4280.88)  
+This bot only works with Google Chrome for now (Version 87.0.4280.88)  
 
 ## Prerequisites
 
